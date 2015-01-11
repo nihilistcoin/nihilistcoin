@@ -1,0 +1,9 @@
+Building Anoncoin
+
+See doc/readme-qt.rst for instructions on building Anoncoin-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Anoncoin.
+
+See doc/build-*.txt for instructions on building anoncoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of Anoncoin.
