@@ -1,4 +1,4 @@
-Howto use Anoncoin on I2P (Still beta software, but working).
+Howto use Nihilistcoin on I2P (Still beta software, but working).
 
 To build the daemon, in any operating system:
 cd src
@@ -13,7 +13,7 @@ Here are some parameters:
 
 Your client will act as a gateway between I2P and clearnet if you don't add -onlynet=i2p
 
-If you have used your Anoncoin client on clearnet before, you might need to delete peers.dat if you don't get any connections.
+If you have used your Nihilistcoin client on clearnet before, you might need to delete peers.dat if you don't get any connections.
 
 
 -------------

@@ -1,5 +1,5 @@
-anoncoin-qt		usr/lib/anoncoin
-debian/bin/anoncoin	usr/bin
+nihilistcoin-qt		usr/lib/nihilistcoin
+debian/bin/nihilistcoin	usr/bin
 debian/*.png		usr/share/pixmaps
 debian/*.xpm		usr/share/pixmaps
 debian/*.desktop	usr/share/applications

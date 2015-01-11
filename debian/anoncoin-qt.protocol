@@ -1,6 +1,6 @@
 [Protocol]
-exec=anoncoin '%u'
-protocol=anoncoin
+exec=nihilistcoin '%u'
+protocol=nihilistcoin
 input=none
 output=none
 helper=true

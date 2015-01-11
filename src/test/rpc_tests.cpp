@@ -4,7 +4,7 @@
 
 #include "base58.h"
 #include "util.h"
-#include "anoncoinrpc.h"
+#include "nihilistcoinrpc.h"
 
 using namespace std;
 using namespace json_spirit;

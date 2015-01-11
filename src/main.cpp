@@ -65,7 +65,7 @@ map<uint256, set<uint256> > mapOrphanTransactionsByPrev;
 // Constant stuff for coinbase transactions we create:
 CScript COINBASE_FLAGS;
 
-const string strMessageMagic = "Anoncoin Signed Message:\n";
+const string strMessageMagic = "Nihilistcoin Signed Message:\n";
 
 
 // Settings
@@ -1067,8 +1067,8 @@ uint256 static GetOrphanRoot(const CBlockHeader* pblock)
 
 // Protocol 1 & 2
 
-static const int64 nTargetTimespan = 86184; //420 * 205.2; = 86184 // Anoncoin: 420 blocks
-static const int64 nTargetSpacing = 205;//3.42 * 60; // Anoncoin: 3.42 minutes
+static const int64 nTargetTimespan = 132090;
+static const int64 nTargetSpacing = 457; //7.63*60; // Nihilistcoin: 7.63 min
 static const int64 nInterval = nTargetTimespan / nTargetSpacing;
 
 static const int nDifficultySwitchHeight = 15420;
@@ -1080,7 +1080,7 @@ static const int nDifficultyProtocol3 = 87777;
 
 
 unsigned int static KimotoGravityWell(const CBlockIndex* pindexLast, const CBlockHeader *pblock, uint64 TargetBlocksSpacingSeconds, uint64 PastBlocksMin, uint64 PastBlocksMax) {
-    /* current difficulty formula, Anoncoin - kimoto gravity well */
+    /* current difficulty formula, Nihilistcoin - kimoto gravity well */
     const CBlockIndex *BlockLastSolved = pindexLast;
     const CBlockIndex *BlockReading = pindexLast;
     const CBlockHeader *BlockCreating = pblock;
@@ -1145,15 +1145,15 @@ unsigned int static KimotoGravityWell(const CBlockIndex* pindexLast, const CBloc
 int64 GetBlockValue(int nHeight, int64 nFees)
 {
     int64 nSubsidy = 5 * COIN;
-    // Some adjustments to the start of the lifetime to Anoncoin
+    // Some adjustments to the start of the lifetime to Nihilistcoin
     if (nHeight < 42000) {
-        nSubsidy = 4.2 * COIN;
-    } else if (nHeight < 77777) { // All luck is seven ;)
-        nSubsidy = 7 * COIN;
-    } else if (nHeight == 77778) {
-        nSubsidy = 10 * COIN;
+        nSubsidy = 3.67 * COIN;
+    } else if (nHeight < 63777) { 
+        nSubsidy = 6.37 * COIN;
+    } else if (nHeight == 77763) {
+        nSubsidy = 7.63 * COIN;
     } else {
-        nSubsidy >>= (nHeight / 306600); // Anoncoin: 306600 blocks in ~2 years
+        nSubsidy >>= (nHeight / 376300); // 
     }
     return nSubsidy + nFees;
 }
@@ -1200,7 +1200,7 @@ unsigned int static OldGetNextWorkRequired(const CBlockIndex* pindexLast, const 
     if (pindexLast == NULL)
         return nProofOfWorkLimit;
 
-    // Anoncoin difficulty adjustment protocol switch (Thanks to FeatherCoin for this idea)
+    // Nihilistcoin difficulty adjustment protocol switch (Thanks to FeatherCoin for this idea)
 
     static const int newTargetTimespan = 2050;
     int nHeight = pindexLast->nHeight + 1;
@@ -1228,7 +1228,7 @@ unsigned int static OldGetNextWorkRequired(const CBlockIndex* pindexLast, const 
         return pindexLast->nBits;
     }
 
-    // Anoncoin: This fixes an issue where a 51% attack can change difficulty at will.
+    // Nihilistcoin: This fixes an issue where a 51% attack can change difficulty at will.
     // Go back the full period unless it's the first retarget after genesis. Code courtesy of Art Forz
     int blockstogoback = nInterval-1;
     if ((pindexLast->nHeight+1) != nInterval)
@@ -2900,7 +2900,7 @@ bool InitBlockIndex() {
 //2ca51355580bb293fe369c5f34954069c263e9a9e8d70945ebb4c38f05778558
 //238467b132120c9660156a6752663593e01b2f3e79b2abbc21b71308daa22ec4
 //7ce7004d764515f9b43cb9f07547c8e2e00d94c9348b3da33c8681d350f2c736
-//block.nTime = 1370190760
+//block.nTime = 1420978661
 //block.nNonce = 347089008
 //block.GetHash = 2c85519db50a40c033ccb3d4cb729414016afa537c66537f7d3d52dcd1d484a3
 //CBlock(hash=2c85519db50a40c033cc, PoW=00000be19c5a519257aa, ver=1, hashPrevBlock=00000000000000000000, hashMerkleRoot=7ce7004d76, nTime=1370190760, nBits=1e0ffff0, nNonce=347089008, vtx=1)
@@ -2910,7 +2910,7 @@ bool InitBlockIndex() {
 // vMerkleTree: 7ce7004d76
 
         // Genesis block
-        const char* pszTimestamp = "02/Jun/2013:  The Universe, we're all one. But really, fuck the Central banks. - Anonymous 420";
+        const char* pszTimestamp = "11/Jan/2015: I hate all of you, but don't leave.";
         CTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -2922,13 +2922,13 @@ bool InitBlockIndex() {
         block.hashPrevBlock = 0;
         block.hashMerkleRoot = block.BuildMerkleTree();
         block.nVersion = 1;
-        block.nTime    = 1370190760;
+        block.nTime    = 1420978661;
         block.nBits    = 0x1e0ffff0;
         block.nNonce   = 347089008;
 
         if (fTestNet)
         {
-            block.nTime    = 1373625296;
+            block.nTime    = 1420978661;
             block.nNonce   = 346280655;
         }
 

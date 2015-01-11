@@ -1,11 +1,11 @@
 [Desktop Entry]
-Name=Anoncoin
-Comment=Anoncoin P2P Cryptocurrency
-Comment[fr]=Anoncoin, monnaie virtuelle cryptographique pair à pair
-Comment[tr]=Anoncoin, eşten eşe kriptografik sanal para birimi
-Exec=/usr/bin/anoncoin
+Name=Nihilistcoin
+Comment=Nihilistcoin P2P Cryptocurrency
+Comment[fr]=Nihilistcoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Nihilistcoin, eşten eşe kriptografik sanal para birimi
+Exec=/usr/bin/nihilistcoin
 Terminal=false
 Type=Application
-Icon=anoncoin
-MimeType=x-scheme-handler/anoncoin;
+Icon=nihilistcoin
+MimeType=x-scheme-handler/nihilistcoin;
 Categories=Office;Network;

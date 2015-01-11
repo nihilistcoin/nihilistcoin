@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Anoncoin</source>
-        <translation>Om Anoncoin</translation>
+        <source>About Nihilistcoin</source>
+        <translation>Om Nihilistcoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Anoncoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Anoncoin&lt;/b&gt;-version</translation>
+        <source>&lt;b&gt;Nihilistcoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Nihilistcoin&lt;/b&gt;-version</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -35,8 +35,8 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     </message>
     <message>
         <location line="+0"/>
-        <source>The Anoncoin developers</source>
-        <translation>Anoncoin-utvecklarna</translation>
+        <source>The Nihilistcoin developers</source>
+        <translation>Nihilistcoin-utvecklarna</translation>
     </message>
 </context>
 <context>
@@ -68,8 +68,8 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your Anoncoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Detta är dina Anoncoin-adresser för att ta emot betalningar.  Du kan ge varje avsändare en egen adress så att du kan hålla reda på vem som betalar dig.</translation>
+        <source>These are your Nihilistcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Detta är dina Nihilistcoin-adresser för att ta emot betalningar.  Du kan ge varje avsändare en egen adress så att du kan hålla reda på vem som betalar dig.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -83,7 +83,7 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a Anoncoin address</source>
+        <source>Sign a message to prove you own a Nihilistcoin address</source>
         <translation>Signera ett meddelande för att bevisa att du äger denna adress</translation>
     </message>
     <message>
@@ -108,8 +108,8 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified Anoncoin address</source>
-        <translation>Verifiera meddelandet för att vara säker på att den var signerad med den specificerade Anoncoin-adressen</translation>
+        <source>Verify a message to ensure it was signed with a specified Nihilistcoin address</source>
+        <translation>Verifiera meddelandet för att vara säker på att den var signerad med den specificerade Nihilistcoin-adressen</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -123,8 +123,8 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your Anoncoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Detta är dina Anoncoin adresser för att skicka betalningar. Kolla alltid summan och den mottagande adressen innan du skickar Anoncoins.</translation>
+        <source>These are your Nihilistcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Detta är dina Nihilistcoin adresser för att skicka betalningar. Kolla alltid summan och den mottagande adressen innan du skickar Nihilistcoins.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -139,7 +139,7 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     <message>
         <location line="+1"/>
         <source>Send &amp;Coins</source>
-        <translation>Skicka &amp;Anoncoins</translation>
+        <translation>Skicka &amp;Nihilistcoins</translation>
     </message>
     <message>
         <location line="+260"/>
@@ -276,7 +276,7 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     </message>
     <message>
         <location line="-56"/>
-        <source>Anoncoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your anoncoins from being stolen by malware infecting your computer.</source>
+        <source>Nihilistcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your nihilistcoins from being stolen by malware infecting your computer.</source>
         <translation>Programmet kommer nu att stänga ner för att färdigställa krypteringen. Tänk på att en krypterad plånbok inte skyddar mot stöld om din dator är infekterad med en keylogger.</translation>
     </message>
     <message>
@@ -375,8 +375,8 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Anoncoin</source>
-        <translation>Visa information om Anoncoin</translation>
+        <source>Show information about Nihilistcoin</source>
+        <translation>Visa information om Nihilistcoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -420,13 +420,13 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a Anoncoin address</source>
-        <translation>Skicka mynt till en Anoncoin-adress</translation>
+        <source>Send coins to a Nihilistcoin address</source>
+        <translation>Skicka mynt till en Nihilistcoin-adress</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for Anoncoin</source>
-        <translation>Ändra konfigurationsalternativ för Anoncoin</translation>
+        <source>Modify configuration options for Nihilistcoin</source>
+        <translation>Ändra konfigurationsalternativ för Nihilistcoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -456,8 +456,8 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>Anoncoin</source>
-        <translation>Anoncoin</translation>
+        <source>Nihilistcoin</source>
+        <translation>Nihilistcoin</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -481,8 +481,8 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About Anoncoin</source>
-        <translation>&amp;Om Anoncoin</translation>
+        <source>&amp;About Nihilistcoin</source>
+        <translation>&amp;Om Nihilistcoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -501,13 +501,13 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your Anoncoin addresses to prove you own them</source>
-        <translation>Signera meddelanden med din Anoncoinadress för att bevisa att du äger dem</translation>
+        <source>Sign messages with your Nihilistcoin addresses to prove you own them</source>
+        <translation>Signera meddelanden med din Nihilistcoinadress för att bevisa att du äger dem</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified Anoncoin addresses</source>
-        <translation>Verifiera meddelanden för att vara säker på att de var signerade med den specificerade Anoncoin-adressen</translation>
+        <source>Verify messages to ensure they were signed with specified Nihilistcoin addresses</source>
+        <translation>Verifiera meddelanden för att vara säker på att de var signerade med den specificerade Nihilistcoin-adressen</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -537,13 +537,13 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     </message>
     <message>
         <location line="+47"/>
-        <source>Anoncoin client</source>
-        <translation>Anoncoin-klient</translation>
+        <source>Nihilistcoin client</source>
+        <translation>Nihilistcoin-klient</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to Anoncoin network</source>
-        <translation><numerusform>%n aktiv anslutning till Anoncoin-nätverket</numerusform><numerusform>%n aktiva anslutningar till Anoncoin-nätverket</numerusform></translation>
+        <source>%n active connection(s) to Nihilistcoin network</source>
+        <translation><numerusform>%n aktiv anslutning till Nihilistcoin-nätverket</numerusform><numerusform>%n aktiva anslutningar till Nihilistcoin-nätverket</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -657,8 +657,8 @@ Adress: %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid Anoncoin address or malformed URI parameters.</source>
-        <translation>URI går inte att tolkas! Detta kan orsakas av en ogiltig Anoncoin-adress eller felaktiga URI parametrar.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Nihilistcoin address or malformed URI parameters.</source>
+        <translation>URI går inte att tolkas! Detta kan orsakas av en ogiltig Nihilistcoin-adress eller felaktiga URI parametrar.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -672,8 +672,8 @@ Adress: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. Anoncoin can no longer continue safely and will quit.</source>
-        <translation>Ett allvarligt fel har uppstått. Anoncoin kan inte längre köras säkert och kommer att avslutas.</translation>
+        <source>A fatal error occurred. Nihilistcoin can no longer continue safely and will quit.</source>
+        <translation>Ett allvarligt fel har uppstått. Nihilistcoin kan inte längre köras säkert och kommer att avslutas.</translation>
     </message>
 </context>
 <context>
@@ -738,8 +738,8 @@ Adress: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Anoncoin address.</source>
-        <translation>Den angivna adressen &quot;%1&quot; är inte en giltig Anoncoin-adress.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Nihilistcoin address.</source>
+        <translation>Den angivna adressen &quot;%1&quot; är inte en giltig Nihilistcoin-adress.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -757,8 +757,8 @@ Adress: %4
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>Anoncoin-Qt</source>
-        <translation>Anoncoin-Qt</translation>
+        <source>Nihilistcoin-Qt</source>
+        <translation>Nihilistcoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -820,13 +820,13 @@ Adress: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Anoncoin after logging in to the system.</source>
-        <translation>Starta Anoncoin automatiskt efter inloggning.</translation>
+        <source>Automatically start Nihilistcoin after logging in to the system.</source>
+        <translation>Starta Nihilistcoin automatiskt efter inloggning.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Anoncoin on system login</source>
-        <translation>&amp;Starta Anoncoin vid systemstart</translation>
+        <source>&amp;Start Nihilistcoin on system login</source>
+        <translation>&amp;Starta Nihilistcoin vid systemstart</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -845,8 +845,8 @@ Adress: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Anoncoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Öppna automatiskt Anoncoin-klientens port på routern. Detta fungerar endast om din router har UPnP aktiverat.</translation>
+        <source>Automatically open the Nihilistcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Öppna automatiskt Nihilistcoin-klientens port på routern. Detta fungerar endast om din router har UPnP aktiverat.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -855,8 +855,8 @@ Adress: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Anoncoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Anslut till Anoncoin-nätverket genom en SOCKS-proxy (t.ex. när du ansluter genom Tor).</translation>
+        <source>Connect to the Nihilistcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Anslut till Nihilistcoin-nätverket genom en SOCKS-proxy (t.ex. när du ansluter genom Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -930,8 +930,8 @@ Adress: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Anoncoin.</source>
-        <translation>Användargränssnittets språk kan ställas in här. Denna inställning träder i kraft efter en omstart av Anoncoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Nihilistcoin.</source>
+        <translation>Användargränssnittets språk kan ställas in här. Denna inställning träder i kraft efter en omstart av Nihilistcoin.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -945,8 +945,8 @@ Adress: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show Anoncoin addresses in the transaction list or not.</source>
-        <translation>Anger om Anoncoin-adresser skall visas i transaktionslistan.</translation>
+        <source>Whether to show Nihilistcoin addresses in the transaction list or not.</source>
+        <translation>Anger om Nihilistcoin-adresser skall visas i transaktionslistan.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -997,8 +997,8 @@ Adress: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Anoncoin.</source>
-        <translation>Denna inställning träder i kraft efter en omstart av Anoncoin.</translation>
+        <source>This setting will take effect after restarting Nihilistcoin.</source>
+        <translation>Denna inställning träder i kraft efter en omstart av Nihilistcoin.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1016,8 +1016,8 @@ Adress: %4
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Anoncoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Den visade informationen kan vara inaktuell. Plånboken synkroniseras automatiskt med Anoncoin-nätverket efter att anslutningen är upprättad, men denna process har inte slutförts ännu.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Nihilistcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Den visade informationen kan vara inaktuell. Plånboken synkroniseras automatiskt med Nihilistcoin-nätverket efter att anslutningen är upprättad, men denna process har inte slutförts ännu.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1070,8 +1070,8 @@ Adress: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start anoncoin: click-to-pay handler</source>
-        <translation>Kan inte starta anoncoin: klicka-och-betala handhavare</translation>
+        <source>Cannot start nihilistcoin: click-to-pay handler</source>
+        <translation>Kan inte starta nihilistcoin: klicka-och-betala handhavare</translation>
     </message>
 </context>
 <context>
@@ -1220,8 +1220,8 @@ Adress: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Anoncoin-Qt help message to get a list with possible Anoncoin command-line options.</source>
-        <translation>Visa Anoncoin-Qt hjälpmeddelande för att få en lista med möjliga Anoncoin kommandoradsalternativ.</translation>
+        <source>Show the Nihilistcoin-Qt help message to get a list with possible Nihilistcoin command-line options.</source>
+        <translation>Visa Nihilistcoin-Qt hjälpmeddelande för att få en lista med möjliga Nihilistcoin kommandoradsalternativ.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1240,13 +1240,13 @@ Adress: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>Anoncoin - Debug window</source>
-        <translation>Anoncoin - Debug fönster</translation>
+        <source>Nihilistcoin - Debug window</source>
+        <translation>Nihilistcoin - Debug fönster</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Anoncoin Core</source>
-        <translation>Anoncoin Kärna</translation>
+        <source>Nihilistcoin Core</source>
+        <translation>Nihilistcoin Kärna</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1255,8 +1255,8 @@ Adress: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Anoncoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Öppna Anoncoin debug-loggfilen som finns i datakatalogen. Detta kan ta några sekunder för stora loggfiler.</translation>
+        <source>Open the Nihilistcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Öppna Nihilistcoin debug-loggfilen som finns i datakatalogen. Detta kan ta några sekunder för stora loggfiler.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1265,8 +1265,8 @@ Adress: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the Anoncoin RPC console.</source>
-        <translation>Välkommen till Anoncoin RPC-konsollen.</translation>
+        <source>Welcome to the Nihilistcoin RPC console.</source>
+        <translation>Välkommen till Nihilistcoin RPC-konsollen.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1449,8 +1449,8 @@ Adress: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Anoncoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Ange en Anoncoin-adress (t.ex. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a Nihilistcoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Ange en Nihilistcoin-adress (t.ex. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
 </context>
 <context>
@@ -1514,7 +1514,7 @@ Adress: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Anoncoin address</source>
+        <source>Sign the message to prove you own this Nihilistcoin address</source>
         <translation>Signera meddelandet för att bevisa att du äger denna adress</translation>
     </message>
     <message>
@@ -1550,8 +1550,8 @@ Adress: %4
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Anoncoin address</source>
-        <translation>Verifiera meddelandet för att vara säker på att den var signerad med den angivna Anoncoin-adressen</translation>
+        <source>Verify the message to ensure it was signed with the specified Nihilistcoin address</source>
+        <translation>Verifiera meddelandet för att vara säker på att den var signerad med den angivna Nihilistcoin-adressen</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1566,8 +1566,8 @@ Adress: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Anoncoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Ange en Anoncoin-adress (t.ex. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a Nihilistcoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Ange en Nihilistcoin-adress (t.ex. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1576,8 +1576,8 @@ Adress: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Anoncoin signature</source>
-        <translation>Ange Anoncoin-signatur</translation>
+        <source>Enter Nihilistcoin signature</source>
+        <translation>Ange Nihilistcoin-signatur</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1650,8 +1650,8 @@ Adress: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The Anoncoin developers</source>
-        <translation>Anoncoin-utvecklarna</translation>
+        <source>The Nihilistcoin developers</source>
+        <translation>Nihilistcoin-utvecklarna</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2188,8 +2188,8 @@ Adress: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>Anoncoin version</source>
-        <translation>Anoncoin version</translation>
+        <source>Nihilistcoin version</source>
+        <translation>Nihilistcoin version</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2198,8 +2198,8 @@ Adress: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or anoncoind</source>
-        <translation>Skicka kommando till -server eller anoncoind</translation>
+        <source>Send command to -server or nihilistcoind</source>
+        <translation>Skicka kommando till -server eller nihilistcoind</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2218,13 +2218,13 @@ Adress: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: anoncoin.conf)</source>
-        <translation>Ange konfigurationsfil (förvalt: anoncoin.conf)</translation>
+        <source>Specify configuration file (default: nihilistcoin.conf)</source>
+        <translation>Ange konfigurationsfil (förvalt: nihilistcoin.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: anoncoind.pid)</source>
-        <translation>Ange pid fil (förvalt: anoncoind.pid)</translation>
+        <source>Specify pid file (default: nihilistcoind.pid)</source>
+        <translation>Ange pid fil (förvalt: nihilistcoind.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2301,24 +2301,24 @@ Adress: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=anoncoinrpc
+rpcuser=nihilistcoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Anoncoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Nihilistcoin Alert&quot; admin@foo.com
 </source>
         <translation>%s, du behöver sätta ett rpclösensord i konfigurationsfilen:
 %s
 Det är rekommenderat att använda följande slumpade lösenord:
-rpcuser=anoncoinrpc
+rpcuser=nihilistcoinrpc
 rpcpassword=%s
 (du behöver inte komma ihåg lösenordet)
 Användarnamnet och lösenordet FÅR INTE bara detsamma.
 Om filen inte existerar, skapa den med enbart ägarläsbara filrättigheter.
 Det är också rekommenderat att sätta alertnotify så du meddelas om problem;
-till exempel: alertnotify=echo %%s | mail -s &quot;Anoncoin Alert&quot; admin@foo.com
+till exempel: alertnotify=echo %%s | mail -s &quot;Nihilistcoin Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2333,8 +2333,8 @@ till exempel: alertnotify=echo %%s | mail -s &quot;Anoncoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Anoncoin is probably already running.</source>
-        <translation>Kan inte låsa data-mappen %s. Anoncoin körs förmodligen redan.</translation>
+        <source>Cannot obtain a lock on data directory %s. Nihilistcoin is probably already running.</source>
+        <translation>Kan inte låsa data-mappen %s. Nihilistcoin körs förmodligen redan.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2344,7 +2344,7 @@ till exempel: alertnotify=echo %%s | mail -s &quot;Anoncoin Alert&quot; admin@fo
     <message>
         <location line="+4"/>
         <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds!</source>
-        <translation>Fel: Denna transaktion kräver en transaktionsavgift på minst %s på grund av dess storlek, komplexitet, eller användning av senast mottagna anoncoins!</translation>
+        <translation>Fel: Denna transaktion kräver en transaktionsavgift på minst %s på grund av dess storlek, komplexitet, eller användning av senast mottagna nihilistcoins!</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2378,8 +2378,8 @@ till exempel: alertnotify=echo %%s | mail -s &quot;Anoncoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Anoncoin will not work properly.</source>
-        <translation>Varning: Vänligen kolla så att din dators datum och tid är korrekt! Om din klocka går fel kommer Anoncoin inte fungera korrekt.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Nihilistcoin will not work properly.</source>
+        <translation>Varning: Vänligen kolla så att din dators datum och tid är korrekt! Om din klocka går fel kommer Nihilistcoin inte fungera korrekt.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2628,8 +2628,8 @@ till exempel: alertnotify=echo %%s | mail -s &quot;Anoncoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the Anoncoin Wiki for SSL setup instructions)</source>
-        <translation>SSL-inställningar: (se Anoncoin-wikin för SSL-setup instruktioner)</translation>
+        <source>SSL options: (see the Nihilistcoin Wiki for SSL setup instructions)</source>
+        <translation>SSL-inställningar: (se Nihilistcoin-wikin för SSL-setup instruktioner)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2818,13 +2818,13 @@ till exempel: alertnotify=echo %%s | mail -s &quot;Anoncoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Anoncoin</source>
-        <translation>Fel vid inläsningen av wallet.dat: Plånboken kräver en senare version av Anoncoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Nihilistcoin</source>
+        <translation>Fel vid inläsningen av wallet.dat: Plånboken kräver en senare version av Nihilistcoin</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart Anoncoin to complete</source>
-        <translation>Plånboken behöver skrivas om: Starta om Anoncoin för att färdigställa</translation>
+        <source>Wallet needed to be rewritten: restart Nihilistcoin to complete</source>
+        <translation>Plånboken behöver skrivas om: Starta om Nihilistcoin för att färdigställa</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2869,7 +2869,7 @@ till exempel: alertnotify=echo %%s | mail -s &quot;Anoncoin Alert&quot; admin@fo
     <message>
         <location line="-6"/>
         <source>Insufficient funds</source>
-        <translation>Otillräckligt med anoncoins</translation>
+        <translation>Otillräckligt med nihilistcoins</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -2883,8 +2883,8 @@ till exempel: alertnotify=echo %%s | mail -s &quot;Anoncoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. Anoncoin is probably already running.</source>
-        <translation>Det går inte att binda till %s på den här datorn. Anoncoin är förmodligen redan igång.</translation>
+        <source>Unable to bind to %s on this computer. Nihilistcoin is probably already running.</source>
+        <translation>Det går inte att binda till %s på den här datorn. Nihilistcoin är förmodligen redan igång.</translation>
     </message>
     <message>
         <location line="+64"/>

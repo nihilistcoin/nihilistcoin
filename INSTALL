@@ -1,9 +1,9 @@
-Building Anoncoin
+Building Nihilistcoin
 
-See doc/readme-qt.rst for instructions on building Anoncoin-Qt,
+See doc/readme-qt.rst for instructions on building Nihilistcoin-Qt,
 the intended-for-end-users, nice-graphical-interface, reference
-implementation of Anoncoin.
+implementation of Nihilistcoin.
 
-See doc/build-*.txt for instructions on building anoncoind,
+See doc/build-*.txt for instructions on building nihilistcoind,
 the intended-for-services, no-graphical-interface, reference
-implementation of Anoncoin.
+implementation of Nihilistcoin.

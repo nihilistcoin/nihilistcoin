@@ -1,5 +1,5 @@
-#ifndef ANONCOIN_MINER_H
-#define ANONCOIN_MINER_H
+#ifndef NIHILISTCOIN_MINER_H
+#define NIHILISTCOIN_MINER_H
 
 #include <stdint.h>
 
@@ -16,11 +16,11 @@ class CScript;
 
 #ifdef ENABLE_WALLET
 class CWallet;
-void AnoncoinMiner(CWallet *pwallet);
+void NihilistcoinMiner(CWallet *pwallet);
 #endif
 
 /** Run the miner threads */
-void GenerateAnoncoins(bool fGenerate, CWallet* pwallet);
+void GenerateNihilistcoins(bool fGenerate, CWallet* pwallet);
 /** Generate a new block, without valid proof-of-work */
 CBlockTemplate* CreateNewBlock(const CScript& scriptPubKeyIn);
 CBlockTemplate* CreateNewBlockWithKey(CReserveKey& reservekey);

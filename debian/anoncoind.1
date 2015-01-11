@@ -1,27 +1,27 @@
-.TH ANONCOIND "1" "March 2014" "Anoncoin 0.8.5.6" "User Commands"
+.TH NIHILISTCOIND "1" "March 2014" "Nihilistcoin 0.8.5.6" "User Commands"
 .SH NAME
-anoncoind \- peer-to-peer network based anonymous digital currency
+nihilistcoind \- peer-to-peer network based anonymous digital currency
 .SH DESCRIPTION
-Anoncoin is a peer-to-peer digital currency. Peer-to-peer (P2P) means that
+Nihilistcoin is a peer-to-peer digital currency. Peer-to-peer (P2P) means that
 there is no central authority to issue new money or keep track of transactions.
 Instead, these tasks are managed collectively by the nodes of the network.
 
 .SS "Usage:"
 .PP
-anoncoind [options]
+nihilistcoind [options]
 .PP
-anoncoind [options] <command> [params]  # Send command to \fB\-server\fR or anoncoind
+nihilistcoind [options] <command> [params]  # Send command to \fB\-server\fR or nihilistcoind
 .PP
-anoncoind [options] help                # List commands
+nihilistcoind [options] help                # List commands
 .PP
-anoncoind [options] help <command>      # Get help for a command
+nihilistcoind [options] help <command>      # Get help for a command
 .SH OPTIONS
 .TP
 \fB\-conf=\fR<file>
-Specify configuration file (default: \fIanoncoin.conf\fR)
+Specify configuration file (default: \fInihilistcoin.conf\fR)
 .TP
 \fB\-pid=\fR<file>
-Specify pid file (default: \fIanoncoind.pid\fR)
+Specify pid file (default: \fInihilistcoind.pid\fR)
 .TP
 \fB-gen
 Generate coins (default: \fI0\fR)
@@ -208,7 +208,7 @@ Enable I2P
 Enable I2P only mode
 .TP
 \fB\-i2psessionname=\fR<session name>
-Name of an I2P session. If it is not specified, value will be \fI'Anoncoin\-client'\fR
+Name of an I2P session. If it is not specified, value will be \fI'Nihilistcoin\-client'\fR
 .TP
 \fB\-samhost=\fR<ip or host name>
 Address of the SAM bridge host. If it is not specified, value will be \fI'127.0.0.1'\fR.
@@ -219,7 +219,7 @@ Port number of the SAM bridge host. If it is not specified, value will be \fI'76
 \fB\-mydestination=\fR<pub+priv i2p\-keys>
 Set full I2P destination (public+private keys). If it is not specified, the client will geneterate a random destination for you.
 .SS "SSL options"
-(see the Anoncoin Wiki for SSL setup instructions)
+(see the Nihilistcoin Wiki for SSL setup instructions)
 .TP
 \fB\-rpcssl\fR
 Use OpenSSL (https) for JSON\-RPC connections
@@ -355,4 +355,4 @@ Checks that 'bitcoinaddress' looks like a proper bitcoin address. Returns an obj
     *note: ismine and address are only returned if the address is valid.
 
 .SH "SEE ALSO"
-\fBanoncoin.conf\fR(5), \fBanoncoin\fR(1)
+\fBnihilistcoin.conf\fR(5), \fBnihilistcoin\fR(1)

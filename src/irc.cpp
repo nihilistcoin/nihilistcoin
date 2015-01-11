@@ -356,14 +356,14 @@ void ThreadIRCSeed()
         }
 
         if (fTestNet) {
-            Send(hSocket, "JOIN #anoncoinTEST3\r");
-            Send(hSocket, "WHO #anoncoinTEST3\r");
+            Send(hSocket, "JOIN #nihilistcoinTEST3\r");
+            Send(hSocket, "WHO #nihilistcoinTEST3\r");
         } else {
             // randomly join #M3GAC01N00-#M3GAC01N99
             int channel_number = GetRandInt(100);
 	 channel_number = 0; // For now, just use one channel
-            Send(hSocket, strprintf("JOIN #anoncoin%02d\r", channel_number).c_str());
-            Send(hSocket, strprintf("WHO #anoncoin%02d\r", channel_number).c_str());
+            Send(hSocket, strprintf("JOIN #nihilistcoin%02d\r", channel_number).c_str());
+            Send(hSocket, strprintf("WHO #nihilistcoin%02d\r", channel_number).c_str());
         }
 
         int64 nStart = GetTime();

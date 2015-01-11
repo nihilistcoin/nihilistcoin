@@ -7,7 +7,7 @@ handle those translations.
 Files and Folders
 -----------------
 
-### anoncoin-qt.pro
+### nihilistcoin-qt.pro
 
 This file takes care of generating `.qm` files from `.ts` files. It is mostly
 automated.

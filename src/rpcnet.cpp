@@ -3,7 +3,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #include "net.h"
-#include "anoncoinrpc.h"
+#include "nihilistcoinrpc.h"
 
 using namespace json_spirit;
 using namespace std;

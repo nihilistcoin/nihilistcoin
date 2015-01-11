@@ -110,7 +110,7 @@ xCXXFLAGS=-O2 -pthread -Wall -Wextra -Wformat -Wformat-security -Wno-unused-para
 xLDFLAGS=$(LDHARDENING) $(LDFLAGS)
 
 # HACK: libleveldb.a and libi2psam.a are only in here so that make recognizes that
-# anoncoind depends on them. This is inelegant because they are redundant when listed
+# nihilistcoind depends on them. This is inelegant because they are redundant when listed
 # in $OBJS (NOTE: compilation fails if they are not in $LIBS, even if present here).
 OBJS= \
     leveldb/libleveldb.a \
@@ -130,7 +130,7 @@ OBJS= \
     obj/main.o \
     obj/net.o \
     obj/protocol.o \
-    obj/anoncoinrpc.o \
+    obj/nihilistcoinrpc.o \
     obj/rpcdump.o \
     obj/rpcnet.o \
     obj/rpcmining.o \
@@ -157,10 +157,10 @@ OBJS_SSE2= obj/scrypt-sse2.o
 OBJS += $(OBJS_SSE2)
 endif
 
-all: anoncoind
+all: nihilistcoind
 
-test check: test_anoncoin FORCE
-	./test_anoncoin
+test check: test_nihilistcoin FORCE
+	./test_nihilistcoin
 
 #
 # LevelDB support
@@ -203,7 +203,7 @@ obj/%.o: %.cpp
 	      -e '/^$$/ d' -e 's/$$/ :/' < $(@:%.o=%.d) >> $(@:%.o=%.P); \
 	  rm -f $(@:%.o=%.d)
 
-anoncoind: $(OBJS:obj/%=obj/%)
+nihilistcoind: $(OBJS:obj/%=obj/%)
 	$(LINK) $(xCXXFLAGS) -o $@ $^ $(xLDFLAGS) $(LIBS)
 
 TESTOBJS := $(patsubst test/%.cpp,obj-test/%.o,$(wildcard test/*.cpp))
@@ -215,12 +215,12 @@ obj-test/%.o: test/%.cpp
 	      -e '/^$$/ d' -e 's/$$/ :/' < $(@:%.o=%.d) >> $(@:%.o=%.P); \
 	  rm -f $(@:%.o=%.d)
 
-test_anoncoin: $(TESTOBJS) $(filter-out obj/init.o,$(OBJS:obj/%=obj/%))
+test_nihilistcoin: $(TESTOBJS) $(filter-out obj/init.o,$(OBJS:obj/%=obj/%))
 	$(LINK) $(xCXXFLAGS) -o $@ $(LIBPATHS) $^ $(TESTLIBS) $(xLDFLAGS) $(LIBS)
 
 clean:
 	$(MAKE) -C ../i2psam -f makefile.unix clean
-	-rm -f anoncoind test_anoncoin
+	-rm -f nihilistcoind test_nihilistcoin
 	-rm -f obj/*.o
 	-rm -f obj-test/*.o
 	-rm -f obj/*.P

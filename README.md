@@ -1,11 +1,11 @@
-Anoncoin
+Nihilistcoin
 ====================
 
-Anoncoin is a privacy-oriented decentralized crypto-currency which uses the I2P network to hide users' identities (Tor is also supported).
+Nihilistcoin is a privacy-oriented decentralized crypto-currency which uses the I2P network to hide users' identities (Tor is also supported).
 
 Platforms:
-- Linux - [![Build Status - Linux](https://jenkins.nordcloud.no/buildStatus/icon?job=Anoncoin-Linux)](https://jenkins.nordcloud.no/job/Anoncoin-Linux/)
-- Windows (Mingw-w64) - [![Build Status - Mingw-w64](https://jenkins.nordcloud.no/buildStatus/icon?job=Anoncoin-Mingw-w64)](https://jenkins.nordcloud.no/job/Anoncoin-Mingw-w64/)
+- Linux - [![Build Status - Linux](https://jenkins.nordcloud.no/buildStatus/icon?job=Nihilistcoin-Linux)](https://jenkins.nordcloud.no/job/Nihilistcoin-Linux/)
+- Windows (Mingw-w64) - [![Build Status - Mingw-w64](https://jenkins.nordcloud.no/buildStatus/icon?job=Nihilistcoin-Mingw-w64)](https://jenkins.nordcloud.no/job/Nihilistcoin-Mingw-w64/)
 - OSX (Build status to be added soon)
 
 Specs:
@@ -15,7 +15,7 @@ Specs:
  - Starts with 4.2 coin blocks until block 42000
  - 7 coin blocks until block 77777
  - 5 coin blocks after 77778, then subsidy halves when block height divisible by 306600 (~1.75 years)
- - total supply will be 3,103,954 ANC
+ - total supply will be 3,103,954 NIH
 
 Development process
 ===================
@@ -30,7 +30,7 @@ or are controversial.
 
 The master branch is regularly built and tested, but is not guaranteed
 to be completely stable. Tags are regularly created to indicate new
-official, stable release versions of Anoncoin.
+official, stable release versions of Nihilistcoin.
 
 Feature branches are created when there are major new features being
 worked on by several people.

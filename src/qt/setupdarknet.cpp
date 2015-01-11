@@ -1,4 +1,4 @@
-// Copyright 2013 The Anoncoin Developers
+// Copyright 2013 The Nihilistcoin Developers
 
 #include <QApplication>
 #include <QMessageBox>
@@ -12,21 +12,21 @@
 void runFirstRunWizard()
 {
    QString strMessage = BitcoinGUI::tr("Do you run Tor or I2P on your computer?\n"
-                        "If so, press yes to let Anoncoin configure it's "
+                        "If so, press yes to let Nihilistcoin configure it's "
                         "connection to the prefered darknet of yours.");
     QMessageBox::StandardButton isRunningDarknet = QMessageBox::question(NULL, 
-        BitcoinGUI::tr("Anoncoin Wizard - Step #1"), strMessage,
+        BitcoinGUI::tr("Nihilistcoin Wizard - Step #1"), strMessage,
         QMessageBox::Yes|QMessageBox::No, QMessageBox::Yes);
     if (isRunningDarknet == QMessageBox::No)
     {
         // Tell user to download
         strMessage = BitcoinGUI::tr("Do you want to download Tor or I2P, and "
-                     "continue darknet setup?\nIf you select yes Anoncoin will quit, "
+                     "continue darknet setup?\nIf you select yes Nihilistcoin will quit, "
                      "so you can continue the wizard after installing a darknet.\n"
-                     "If you select no, Anoncoin will write a default clearnet "
+                     "If you select no, Nihilistcoin will write a default clearnet "
                      "(regular internet) config file for you. (unsafe mode)\n");
         QMessageBox::StandardButton wantDownloadDarknet = QMessageBox::question(NULL,
-            BitcoinGUI::tr("Anoncoin Wizard - Step #2"), strMessage,
+            BitcoinGUI::tr("Nihilistcoin Wizard - Step #2"), strMessage,
             QMessageBox::Yes|QMessageBox::No, QMessageBox::Yes);
         if (wantDownloadDarknet == QMessageBox::No)
         {

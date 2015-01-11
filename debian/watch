@@ -2,5 +2,5 @@
 
 version=3
 
- https://github.com/anoncoin/anoncoin/releases \
+ https://github.com/nihilistcoin/nihilistcoin/releases \
  .*/archive/v?(\d[\d\.]+)(?:[a-z]*)\.tar\.gz

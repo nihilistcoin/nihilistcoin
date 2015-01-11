@@ -12,7 +12,7 @@ using namespace std;
 
 //////////////////////////////////////////////////////////////////////////////
 //
-// AnoncoinMiner
+// NihilistcoinMiner
 //
 
 int FormatHashBlocks(void* pbuffer, unsigned int len)
@@ -425,7 +425,7 @@ bool CheckWork(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
         return false;
 
     //// debug print
-    printf("AnoncoinMiner:\n");
+    printf("NihilistcoinMiner:\n");
     printf("proof-of-work found  \n  hash: %s  \ntarget: %s\n", hash.GetHex().c_str(), hashTarget.GetHex().c_str());
     pblock->print();
     printf("generated %s\n", FormatMoney(pblock->vtx[0].vout[0].nValue).c_str());
@@ -434,7 +434,7 @@ bool CheckWork(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
     {
         LOCK(cs_main);
         if (pblock->hashPrevBlock != hashBestChain)
-            return error("AnoncoinMiner : generated block is stale");
+            return error("NihilistcoinMiner : generated block is stale");
 
         // Remove key from key pool
         reservekey.KeepKey();
@@ -448,7 +448,7 @@ bool CheckWork(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
         // Process this block the same as if we had received it from another node
         CValidationState state;
         if (!ProcessBlock(state, NULL, pblock))
-            return error("AnoncoinMiner : ProcessBlock, block not accepted");
+            return error("NihilistcoinMiner : ProcessBlock, block not accepted");
     }
 
     return true;
@@ -460,11 +460,11 @@ bool CheckWork(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
 double dHashesPerSec = 0.0;
 int64 nHPSTimerStart = 0;
 
-void AnoncoinMiner(CWallet *pwallet)
+void NihilistcoinMiner(CWallet *pwallet)
 {
-    printf("AnoncoinMiner started\n");
+    printf("NihilistcoinMiner started\n");
     SetThreadPriority(THREAD_PRIORITY_LOWEST);
-    RenameThread("anoncoin-miner");
+    RenameThread("nihilistcoin-miner");
 
     // Each thread has its own key and counter
     CReserveKey reservekey(pwallet);
@@ -486,7 +486,7 @@ void AnoncoinMiner(CWallet *pwallet)
         CBlock *pblock = &pblocktemplate->block;
         IncrementExtraNonce(pblock, pindexPrev, nExtraNonce);
 
-        printf("Running AnoncoinMiner with %"PRIszu" transactions in block (%u bytes)\n", pblock->vtx.size(),
+        printf("Running NihilistcoinMiner with %"PRIszu" transactions in block (%u bytes)\n", pblock->vtx.size(),
                ::GetSerializeSize(*pblock, SER_NETWORK, PROTOCOL_VERSION));
 
         //
@@ -598,12 +598,12 @@ void AnoncoinMiner(CWallet *pwallet)
     } }
     catch (boost::thread_interrupted)
     {
-        printf("AnoncoinMiner terminated\n");
+        printf("NihilistcoinMiner terminated\n");
         throw;
     }
 }
 
-void GenerateAnoncoins(bool fGenerate, CWallet* pwallet)
+void GenerateNihilistcoins(bool fGenerate, CWallet* pwallet)
 {
     static boost::thread_group* minerThreads = NULL;
 
@@ -623,7 +623,7 @@ void GenerateAnoncoins(bool fGenerate, CWallet* pwallet)
 
     minerThreads = new boost::thread_group();
     for (int i = 0; i < nThreads; i++)
-        minerThreads->create_thread(boost::bind(&AnoncoinMiner, pwallet));
+        minerThreads->create_thread(boost::bind(&NihilistcoinMiner, pwallet));
 }
 
 #endif

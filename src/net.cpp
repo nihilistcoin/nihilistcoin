@@ -471,7 +471,7 @@ bool GetMyExternalIP(CNetAddr& ipRet)
 void ThreadGetMyExternalIP(void* parg)
 {
     // Make this thread recognisable as the external IP detection thread
-    RenameThread("anoncoin-ext-ip");
+    RenameThread("nihilistcoin-ext-ip");
 
     if (IsI2POnly())
         return;
@@ -1316,7 +1316,7 @@ void ThreadMapPort()
             }
         }
 
-        string strDesc = "Anoncoin " + FormatFullVersion();
+        string strDesc = "Nihilistcoin " + FormatFullVersion();
 
         try {
             loop {
@@ -1385,13 +1385,13 @@ void MapPort(bool)
 
 
 static const char *strI2PDNSSeed[][2] = {
-    {"a4gii55rnvv22qm2ojre2n67bzms5utr4k3ckafwjdoym2cqmv2q.b32.i2p", "a4gii55rnvv22qm2ojre2n67bzms5utr4k3ckafwjdoym2cqmv2q.b32.i2p"}, // K1773R's seednode
-    {"b7ziruwpk7g2e44xyomnc2nu5tx7bc2f2ai4dzi66uxm3bc3qttq.b32.i2p", "b7ziruwpk7g2e44xyomnc2nu5tx7bc2f2ai4dzi66uxm3bc3qttq.b32.i2p"}, // K1773R's seednode (dnsseed01)
-    {"72vaef5cmmlcilgvpeltcp77gutsnyic2l5khsgz7kyivla5lwjq.b32.i2p", "72vaef5cmmlcilgvpeltcp77gutsnyic2l5khsgz7kyivla5lwjq.b32.i2p"}, // riddler's seednode
-    {"qc37luxnbh3hkihxfl2e7nwosebh5sbfvpvjqwn7c3g5kqftb5qq.b32.i2p", "qc37luxnbh3hkihxfl2e7nwosebh5sbfvpvjqwn7c3g5kqftb5qq.b32.i2p"}, // psi's seednode
-    {"xynjl64xlviqhkjl2fbvupj7y3wct46jtayoxm2ksba6tqzo6tsa.b32.i2p", "xynjl64xlviqhkjl2fbvupj7y3wct46jtayoxm2ksba6tqzo6tsa.b32.i2p"}, // Cryptoslave's seednode
-    {"7zbwzykhyjcmmessswamkxfyya7hioiy2oq7voaw27625qwruqia.b32.i2p", "7zbwzykhyjcmmessswamkxfyya7hioiy2oq7voaw27625qwruqia.b32.i2p"}, // lunokhod's seednode
-    {"ypwvq7jcu3uwyg4ufjqt4a26ca6pxdcnshv6q2okmmjsof5dxzkq.b32.i2p", "ypwvq7jcu3uwyg4ufjqt4a26ca6pxdcnshv6q2okmmjsof5dxzkq.b32.i2p"} // keystroke's seednode
+    {"", ""}, // K1773R's seednode
+    {"", ""}, // K1773R's seednode (dnsseed01)
+    {"", ""}, // riddler's seednode
+    {"", ""}, // psi's seednode
+    {"", ""}, // Cryptoslave's seednode
+    {"", ""}, // lunokhod's seednode
+    {"", ""} // keystroke's seednode
 };
 
 
@@ -1404,15 +1404,15 @@ static const char *strI2PDNSSeed[][2] = {
 // The first name is used as information source for addrman.
 // The second name should resolve to a list of seed addresses.
 static const char *strMainNetDNSSeed[][2] = {
-    {"coinpool.in", "anoncoin.dnsseed.coinpool.in"}, // Normal Seednode, NO DNS-SEED!
-    {"anoncoin.net", "dnsseed01.anoncoin.net"}, // Normal Seednode, NO DNS-SEED!
-    {"anoncoin.darkgamex.ch", "anc.dnsseed01.anoncoin.darkgamex.ch"}, // K1773R's DNSSeed
-    {"www.virtual-currency.com", "anc.dnsseed01.anoncoin.virtual-currency.com"}, // keystroke's DNSSeed
+    {"", ""}, // Normal Seednode, NO DNS-SEED!
+    {"", ""}, // Normal Seednode, NO DNS-SEED!
+    {"", ""}, // K1773R's DNSSeed
+    {"", ""}, // keystroke's DNSSeed
     {NULL, NULL}
 };
 
 static const char *strTestNetDNSSeed[][2] = {
-    {"anoncoin.net", "dnsseed01.anoncoin.net"},
+    {"", ""},
     {NULL, NULL}
 };
 
@@ -1949,7 +1949,7 @@ bool BindListenPort(const CService &addrBind, string& strError)
     {
         int nErr = WSAGetLastError();
         if (nErr == WSAEADDRINUSE)
-            strError = strprintf(_("Unable to bind to %s on this computer. Anoncoin is probably already running."), addrBind.ToString().c_str());
+            strError = strprintf(_("Unable to bind to %s on this computer. Nihilistcoin is probably already running."), addrBind.ToString().c_str());
         else
             strError = strprintf(_("Unable to bind to %s on this computer (bind returned error %d, %s)"), addrBind.ToString().c_str(), nErr, strerror(nErr));
         printf("%s\n", strError.c_str());
@@ -2080,7 +2080,7 @@ bool StopNode()
 {
     printf("StopNode()\n");
 #ifdef ENABLE_WALLET
-    GenerateAnoncoins(false, NULL);
+    GenerateNihilistcoins(false, NULL);
 #endif
     MapPort(false);
     nTransactionsUpdated++;

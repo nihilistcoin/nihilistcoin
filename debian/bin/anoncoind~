@@ -12,7 +12,7 @@ cfgfile="$basedir/nihilistcoin.conf"
 
 [ -e "$cfgfile" ] || perl -le 'print"rpcpassword=",map{(a..z,A..Z,0..9)[rand 62]}0..9' > "$cfgfile"
 
-# Nihilistcoin does not clean up DB log files by default
+# Anoncoin does not clean up DB log files by default
 [ -e "$dbfile" ] || echo 'set_flags DB_LOG_AUTOREMOVE' > "$dbfile"
 
-exec /usr/lib/nihilistcoin/nihilistcoin-qt "$@"
+exec /usr/lib/nihilistcoin/nihilistcoind "$@"

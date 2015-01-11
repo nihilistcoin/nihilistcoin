@@ -1,9 +1,9 @@
-Anoncoin 0.8.x BETA
+Nihilistcoin 0.8.x BETA
 ====================
 
 Copyright (c) 2009-2013 Bitcoin Developers
 Copyright (c) 2011-2013 Litecoin Developers
-Copyright (c) 2013 Anoncoin Developers
+Copyright (c) 2013 Nihilistcoin Developers
 
 Distributed under the MIT/X11 software license, see the accompanying
 file COPYING or http://www.opensource.org/licenses/mit-license.php.
@@ -13,7 +13,7 @@ cryptographic software written by Eric Young ([eay@cryptsoft.com](mailto:eay@cry
 
 Intro
 ---------------------
-Anoncoin is a free open source peer-to-peer electronic cash system that is
+Nihilistcoin is a free open source peer-to-peer electronic cash system that is
 completely decentralized, without the need for a central server or trusted
 parties.  Users hold the crypto keys to their own money and transact directly
 with each other, with the help of a P2P network to check for double-spending.
@@ -21,15 +21,15 @@ with each other, with the help of a P2P network to check for double-spending.
 
 Setup
 ---------------------
-You need the Qt4 run-time libraries to run Anoncoin-Qt. On Debian or Ubuntu:
+You need the Qt4 run-time libraries to run Nihilistcoin-Qt. On Debian or Ubuntu:
 	`sudo apt-get install libqtgui4`
 
 Unpack the files into a directory and run:
 
-- bin/32/anoncoin-qt (GUI, 32-bit)
-- bin/32/anoncoind (headless, 32-bit)
-- bin/64/anoncoin-qt (GUI, 64-bit)
-- bin/64/anoncoind (headless, 64-bit)
+- bin/32/nihilistcoin-qt (GUI, 32-bit)
+- bin/32/nihilistcoind (headless, 32-bit)
+- bin/64/nihilistcoin-qt (GUI, 64-bit)
+- bin/64/nihilistcoind (headless, 64-bit)
 
 
 Other Pages

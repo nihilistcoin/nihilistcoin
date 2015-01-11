@@ -18,8 +18,8 @@ Build-Depends: debhelper (>= 9), imagemagick
  ,qt4-qmake
 Standards-Version: 3.9.5
 Homepage: https://nihilistcoin.net/
-VCS-Browser: https://github.com/Nihilistcoin/nihilistcoin
-VCS-Git: git://github.com/Nihilistcoin/nihilistcoin.git
+VCS-Browser: https://github.com/Anoncoin/nihilistcoin
+VCS-Git: git://github.com/Anoncoin/nihilistcoin.git
 
 Package: nihilistcoind
 Architecture: any
@@ -27,11 +27,11 @@ Depends: ${shlibs:Depends}, ${misc:Depends}
 Recommends: i2p | i2p-router, tor
 Suggests: db-util
 Description: peer-to-peer network based digital currency - daemon
- Nihilistcoin is a free open source peer-to-peer electronic cash system that
+ Anoncoin is a free open source peer-to-peer electronic cash system that
  is completely decentralized, without the need for a central server or
  trusted parties.  Users hold the crypto keys to their own money and
  transact directly with each other, with the help of a P2P network to
- check for double-spending. Nihilistcoin is a fork of Bitcoin.
+ check for double-spending. Anoncoin is a fork of Bitcoin.
  .
  Full transaction history is stored locally at each client.
  This requires 200 MB+ of space, slowly growing.
@@ -45,13 +45,13 @@ Depends: ${shlibs:Depends}, ${misc:Depends}
 Recommends: i2p | i2p-router, tor
 Suggests: db-util
 Description: peer-to-peer network based digital currency - Qt GUI
- Nihilistcoin is a free open source peer-to-peer electronic cash system that
+ Anoncoin is a free open source peer-to-peer electronic cash system that
  is completely decentralized, without the need for a central server or
  trusted parties.  Users hold the crypto keys to their own money and
  transact directly with each other, with the help of a P2P network to
- check for double-spending. Nihilistcoin is a fork of Bitcoin.
+ check for double-spending. Anoncoin is a fork of Bitcoin.
  .
  Full transaction history is stored locally at each client.
  This requires 200 MB+ of space, slowly growing.
  .
- This package provides Nihilistcoin-Qt, a GUI for Nihilistcoin based on Qt.
+ This package provides Anoncoin-Qt, a GUI for Anoncoin based on Qt.

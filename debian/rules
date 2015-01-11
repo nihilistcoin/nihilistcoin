@@ -16,12 +16,12 @@ override_dh_auto_clean:
 C_UPNP = $(if $(shell dpkg --status libminiupnpc-dev 2>/dev/null),1,-)
 override_dh_auto_configure:
 	## update translations
-	lupdate anoncoin-qt.pro -silent
+	lupdate nihilistcoin-qt.pro -silent
 	## make GUI tests Makefile
-	#qmake anoncoin-qt.pro USE_QRCODE=1 USE_DBUS=1 USE_UPNP=$(C_UPNP) RELEASE=0 BITCOIN_QT_TEST=1
+	#qmake nihilistcoin-qt.pro USE_QRCODE=1 USE_DBUS=1 USE_UPNP=$(C_UPNP) RELEASE=0 BITCOIN_QT_TEST=1
 	#mv Makefile Makefile_test
 	## make GUI Makefile
-	qmake anoncoin-qt.pro USE_QRCODE=1 USE_DBUS=1 USE_UPNP=$(C_UPNP) RELEASE=0
+	qmake nihilistcoin-qt.pro USE_QRCODE=1 USE_DBUS=1 USE_UPNP=$(C_UPNP) RELEASE=0
 	## Hardening
 	perl -0pi -e 's[(CXXFLAGS\s*=)][$$1 $$ENV{CFLAGS} $$ENV{CPPFLAGS}]; \
                       s[(LFLAGS\s*=)][$$1 -Wl,--as-needed $$ENV{LDFLAGS}]; \
@@ -38,18 +38,18 @@ override_dh_auto_build:
 	## build GUI
 	dh_auto_build
 	## build console app.
-	$(MAKE) -C src -f makefile.unix anoncoind USE_UPNP=$(C_UPNP)
+	$(MAKE) -C src -f makefile.unix nihilistcoind USE_UPNP=$(C_UPNP)
 	## build console app. test
-	#$(MAKE) -C src -f makefile.unix test_anoncoin USE_UPNP=$(C_UPNP)
+	#$(MAKE) -C src -f makefile.unix test_nihilistcoin USE_UPNP=$(C_UPNP)
 	## build menu and icons
-	convert src/qt/res/icons/bitcoin.png -resize 32x32 $(CURDIR)/debian/anoncoin.xpm
-	convert src/qt/res/icons/bitcoin.png -resize 64x64 $(CURDIR)/debian/anoncoin.png
-	desktop2menu debian/anoncoin-qt.desktop anoncoin-qt > debian/anoncoin-qt.menu
+	convert src/qt/res/icons/bitcoin.png -resize 32x32 $(CURDIR)/debian/nihilistcoin.xpm
+	convert src/qt/res/icons/bitcoin.png -resize 64x64 $(CURDIR)/debian/nihilistcoin.png
+	desktop2menu debian/nihilistcoin-qt.desktop nihilistcoin-qt > debian/nihilistcoin-qt.menu
 
 override_dh_auto_test:
 	## Set $HOME to debian/tmp since buildd do not have RW permission to /home/buildd.
-	#HOME=$(CURDIR)/debian/tmp src/test_anoncoin
-	#HOME=$(CURDIR)/debian/tmp ./anoncoin-qt_test
+	#HOME=$(CURDIR)/debian/tmp src/test_nihilistcoin
+	#HOME=$(CURDIR)/debian/tmp ./nihilistcoin-qt_test
 
 override_dh_builddeb:
 	dh_builddeb -- -Zxz
